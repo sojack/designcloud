@@ -1,0 +1,28 @@
+.container{
+    max-width:800px;
+    margin:auto;
+    padding:1rem;
+}
+
+.p, .list{
+    text-wrap: pretty;
+    max-width:75ch;
+    line-height: 1.5rem;
+}
+
+.h1{
+text-wrap:balance;
+text-align: center;
+}
+.img{
+    width:100%;
+    height:auto;
+    margin: 1em 0;
+}
+.logo{
+    display:block;
+    margin:auto;
+}
+.list{
+    margin-left:1em;
+}
