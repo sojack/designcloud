@@ -4,7 +4,18 @@
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
-
+    --nonmetal: #33f;
+    --alkalimetal: #ee0;
+    --alkalineearthmetal: #cc8;
+    --metalloid: #888;
+    --halogen: #8af;
+    --basic: #630;
+    --noblegas: #8df;
+    --metal: #630;
+    --transitionmetal: #ecc;
+    --lanthanoid: #960;
+    --actinoid: #6a0;
+    --post-transitionmetal: #eed;
 }
 
 @media (prefers-color-scheme: dark) {

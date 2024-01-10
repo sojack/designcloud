@@ -1,0 +1,14 @@
+:root{
+    --nonmetal: #33f;
+    --alkalimetal: #ee0;
+    --alkalineearthmetal: #cc8;
+    --metalloid: #888;
+    --halogen: #8af;
+    --basic: #630;
+    --noblegas: #8df;
+    --metal: #630;
+    --transitionmetal: #ecc;
+    --lanthanoid: #960;
+    --actinoid: #6a0;
+    --post-transitionmetal: #eed;
+  }

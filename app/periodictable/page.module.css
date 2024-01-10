@@ -1,0 +1,217 @@
+/* colors in css variables */
+/* :root{
+    --nonmetal: #33f;
+    --alkalimetal: #ee0;
+    --alkalineearthmetal: #cc8;
+    --metalloid: #888;
+    --halogen: #8af;
+    --basic: #630;
+    --noblegas: #8df;
+    --metal: #630;
+    --transitionmetal: #ecc;
+    --lanthanoid: #960;
+    --actinoid: #6a0;
+    --post-transitionmetal: #eed;
+  } */
+  
+  /* html{
+    background-color:black;
+  } */
+  .tableTitle{
+    color:white;
+    font-size:3em;
+    text-align:center;
+  }
+  
+  #periodicTable{
+    display: grid;
+    grid-template-columns: repeat(17, auto);
+    grid-template-rows: minmax(1em, auto);
+    grid-gap: 2px;
+    font-size:.6em;
+    --nonmetal: #33f;
+    --alkalimetal: #ee0;
+    --alkalineearthmetal: #cc8;
+    --metalloid: #888;
+    --halogen: #8af;
+    --basic: #630;
+    --noblegas: #8df;
+    --metal: #630;
+    --transitionmetal: #ecc;
+    --lanthanoid: #960;
+    --actinoid: #6a0;
+    --post-transitionmetal: #eed;
+    overflow: scroll;
+  }
+  .cell{
+    display: grid;
+    background-color: #ddd;
+    grid-template-areas: 
+      "name  name name"
+      "symbol symbol symbol"
+      "standardState atomicNumber yearDiscovered"
+      "atomicMass atomicMass atomicMass";
+  /*   grid-template-columns: repeat(2, 1fr); */
+  /*     grid-template-rows: repeat(3, 1fr); */
+    font-family:sans-serif;
+    text-align:left;
+    border-radius:.7em;
+    margin-top:1em;
+  
+  }
+  .cell div{
+    padding: 3px;
+    align-self:center;
+  }
+  
+  div.name{
+    grid-area: name;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  div.atomicNumber{
+    grid-area: atomicNumber;
+    text-align: right;
+  }
+  .symbol{
+    grid-area: symbol;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+  }
+  .standardState{
+    grid-area: standardState;
+    text-align: left;
+  }
+  .yearDiscovered{
+    grid-area: yearDiscovered;
+    text-align: right;
+  }
+  
+  .groupBlock{
+    grid-area: groupBlock;
+    text-align: center;
+  }
+  
+  .yearDiscovered{
+    grid-area: yearDiscovered;
+    text-align: right;
+  }
+  .atomicMass{
+    grid-area: atomicMass;
+    text-align: center;
+  }
+  
+  /* ####### coloring ########### */
+  .nonmetal{
+    background: linear-gradient(to bottom, black 0%, var(--nonmetal) 100%);
+    color: white;
+  }
+  .alkalimetal{
+    background: linear-gradient(to bottom, black 0%,var(--alkalimetal) 100%);
+    color: white;
+  }
+  .alkalineearthmetal{
+    background: linear-gradient(to bottom, black 0%,var(--alkalineearthmetal) 100%);
+    color: white;
+  }
+  .metalloid{
+    background: linear-gradient(to bottom, black 0%,var(--alkalineearthmetal) 100%);
+    color: white;
+  }
+  .halogen{
+    background: linear-gradient(to bottom, black 0%,var(--halogen) 100%);
+    color: white;
+  }
+  .noblegas{
+    background: linear-gradient(to bottom, black 0%,var(--noblegas) 100%);
+    color: white;
+  }
+  .metal{
+    background: linear-gradient(to bottom, black 0%,var(--metal) 100%);
+    color: white;
+  }
+  .halogen{
+    background: linear-gradient(to bottom, black 0%,var(--halogen) 100%);
+    color: white;
+  }
+  .transitionmetal{
+    background: linear-gradient(to bottom, black 0%,var(--transitionmetal) 100%);
+    color: white;
+  }
+  .lanthanoid{
+    background: linear-gradient(to bottom, black 0%,var(--lanthanoid) 100%);
+    color: white;
+  }
+  .actinoid{
+    background: linear-gradient(to bottom, black 0%,var(--actinoid) 100%);
+    color: white;
+  }
+  .post-transitionmetal{
+    background: linear-gradient(to bottom, black 0%,var(--post-transitionmetal)   100%);
+    color: white;
+  }
+  
+  /* ####### positioning ########### */
+  #periodicTable > :nth-child(2) {
+    grid-column:-1;
+  } 
+  #periodicTable > :nth-child(5) {
+    grid-column:-6;
+  } 
+  #periodicTable > :nth-child(13) {     /* After this everything falls in the right place */
+    grid-column:-6;
+  } 
+  /* Lanthanides */
+  #periodicTable > :nth-child(58),
+  #periodicTable > :nth-child(59),
+  #periodicTable > :nth-child(60),
+  #periodicTable > :nth-child(61),
+  #periodicTable > :nth-child(62),
+  #periodicTable > :nth-child(63),
+  #periodicTable > :nth-child(64),
+  #periodicTable > :nth-child(65),
+  #periodicTable > :nth-child(66),
+  #periodicTable > :nth-child(67),
+  #periodicTable > :nth-child(68),
+  #periodicTable > :nth-child(69),
+  #periodicTable > :nth-child(70),
+  #periodicTable > :nth-child(71)
+  {
+    grid-row: 8;
+    margin-top:3em;
+  } 
+  
+  /* Actinides */
+  #periodicTable > :nth-child(90),
+  #periodicTable > :nth-child(91),
+  #periodicTable > :nth-child(92),
+  #periodicTable > :nth-child(93),
+  #periodicTable > :nth-child(94),
+  #periodicTable > :nth-child(95),
+  #periodicTable > :nth-child(96),
+  #periodicTable > :nth-child(97),
+  #periodicTable > :nth-child(98),
+  #periodicTable > :nth-child(99),
+  #periodicTable > :nth-child(100),
+  #periodicTable > :nth-child(101),
+  #periodicTable > :nth-child(102),
+  #periodicTable > :nth-child(103)
+  {
+    grid-row: 9;
+    margin-top:3em;
+  } 
+  
+  .largeCell{
+    transform: scale(2.5, 2.5);
+    z-index:100;
+    cursor: pointer;
+    border:1px solid #ffa;
+  }
+  .normalCell{
+    transform: scale(1, 1);
+    z-index:1;
+    cursor: zoom-in;
+    border:none;
+  }
