@@ -11,7 +11,7 @@ function page() {
   return (
     <div className={styles.main}>
         <div className={styles.top}> {/* top will hold title and UTC logo */}
-            <Image className={styles.title} src={title} alt="title"></Image>
+            <Image className={styles.title} src={title} alt="title" priority></Image>
 
         </div>
         <div className={styles.bottom}>
