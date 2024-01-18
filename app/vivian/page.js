@@ -1,6 +1,12 @@
 import Image from "next/image"
 import "./page.css"
 
+export const metadata = {
+    title: 'Vivian Resume',
+    description: 'Vivian Shaw - Resume',
+    }
+
+
 function page() {
   return (
     <div id="main">

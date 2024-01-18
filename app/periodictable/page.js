@@ -3,6 +3,11 @@ import './pt.css'
 import styles from './page.module.css'
 import pt from './periodictable.json'
 
+export const metadata = {
+  title: 'Periodic Table'
+  }
+
+
 function page() {
   return (
     <>

@@ -6,12 +6,16 @@ import lm from "./LM.png"
 import photofac from "./photofac.png"
 import smash from "./smash.png"
 
+export const metadata = {
+    title: 'Joseph and the Amazing Technicolor Dreamcoat',
+    description: 'Unionville Theatre Company',
+    }
 
 function page() {
   return (
     <div className={styles.main}>
         <div className={styles.top}> {/* top will hold title and UTC logo */}
-            <Image className={styles.title} src={title} alt="title" priority></Image>
+            <Image className={styles.title} src={title} alt="title"></Image>
 
         </div>
         <div className={styles.bottom}>
