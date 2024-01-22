@@ -40,7 +40,7 @@ function page() {
             </tbody>
         </table>
         <p>Record keepers:</p>
-        <p className='betty'>Betty Whital</p>
+        <p className='betty'><a href="https://olympic.ca/team-canada/elizabeth-whittall/">Beth Whitall</a></p>
         <p className='brigitte'>Brigitte Zirger</p>
     </div>
   )
