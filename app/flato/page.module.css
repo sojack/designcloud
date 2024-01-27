@@ -75,6 +75,10 @@ width:90%;
 height:auto;
 }
 
+.rounded{
+    border-radius:50%;
+}
+
 .smalltext{
     margin-top: 1em;
     font-size: xx-small;

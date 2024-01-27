@@ -4,7 +4,7 @@ import title from "./title.png"
 import td from "./td.png"
 import lm from "./LM.png"
 import photofac from "./photofac.png"
-import smash from "./smash.png"
+import smash from "./smash-01.png"
 
 export const metadata = {
     title: 'Joseph and the Amazing Technicolor Dreamcoat',
@@ -15,8 +15,7 @@ function page() {
   return (
     <div className={styles.main}>
         <div className={styles.top}> {/* top will hold title and UTC logo */}
-            <Image className={styles.title} src={title} alt="title"></Image>
-
+            <Image className={styles.title} src={title} alt="title" priority={true}></Image>
         </div>
         <div className={styles.bottom}>
             <div className={styles.date}>February 22–25, 2024</div>
@@ -36,7 +35,7 @@ function page() {
                     <div  className={styles.sponsorsImages}><Image className={styles.sponsorsImage} src={td} alt="TD"></Image></div>
                     <div  className={styles.sponsorsImages}><Image className={styles.sponsorsImage} src={lm} alt="Long & McQuade"></Image></div>
                     <div  className={styles.sponsorsImages}><Image className={styles.sponsorsImage} src={photofac} alt="photoac"></Image></div>
-                    <div  className={styles.sponsorsImages}><Image className={styles.sponsorsImage} src={smash} alt="smash"></Image></div>
+                    <div  className={styles.sponsorsImages}><Image className={styles.sponsorsImage + " "+styles.rounded} src={smash} alt="smash"></Image></div>
                 </div>
                 <div><a href="https://www.unionvilletheatre.ca">www.unionvilletheatre.ca</a></div>
                 <div className={styles.smalltext}>
