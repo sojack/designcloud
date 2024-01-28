@@ -24,7 +24,7 @@ export default function Home() {
           <li>Logo design</li>
           <li>Interactive / motion design</li>
           <li>3D renderings</li>
-          <li>Advanced typesetting, math and science</li>
+          <li>Advanced typesetting, <Link href="math">math</Link> and science</li>
         </ul>
       </div>
     </main>
