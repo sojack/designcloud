@@ -1,0 +1,12 @@
+html{
+    background-color:white;
+    padding:1em;
+}
+
+main{
+    max-width: 72ch;
+}
+
+.sample{
+    color:black;
+}
