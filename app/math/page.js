@@ -23,7 +23,7 @@ export default function Home() {
                 $$x = -b \pm \sqrt {`{b^2-4ac}`} \over 2a$$
             </div>
             <div className="sample">
-                <h1>Taylor Series</h1>
+                <h2>Taylor Series</h2>
                     $$
                     P(x) = \color{`{teal}`}{`{f(0)}`} + \color{`{blue}`} \frac{`{df}`}{`{dx}`}(0)\frac{`{x^1}`}{`{1!}`}
                     + \color{`{green}`} \frac{`{d^2f}`}{`{dx^2}`}(0) \frac{`{x^2}`}{`{2!}`}
@@ -48,6 +48,13 @@ export default function Home() {
                 \label{`{`}eq:sample{`}`}
                 \end{`{equation}`}
             
+            </div>
+
+            <div  className="sample">
+
+                <h2>Standard Deviation</h2>
+            $$\sigma = \sqrt{`{`} \frac{`{`}1{`}`}{`{`}N{`}`} \sum_{`{`}i=1{`}`}^N (x_i -\mu)^2{`}`}$$
+
             </div>
 
         </main>
