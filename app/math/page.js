@@ -14,14 +14,29 @@ export default function Home() {
   return (
     <>
 
-<Script
-            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-        />
+        <Script  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"  />
+
+        <h2>Euler's Identity</h2>
+
+        <p>Euler's identity is often called the most beautiful equation in mathematics. It relates five fundamental mathematical constants: \(e, \pi, 
+i \) (the imaginary unit), 1, and 0, using addition, multiplication, exponentiation, and equality.</p>
+        $$e^{`{`}i\pi{`}`} + 1 = 0$$
+
+        <h2>Quadratic Equation</h2>
+        <p>When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are:</p>
+            $$x = -b \pm \sqrt {`{b^2-4ac}`} \over 2a$$
+        <h2>Navier-Stokes Equation</h2>
+        <p>The Navier-Stokes equation is a set of nonlinear partial differential equations that describe the motion of fluid substances. It's used extensively in fluid dynamics to model phenomena such as airflow around an airplane wing or ocean currents.</p>
+
+            $$
+
+            \frac{`{`}\partial \mathbf{`{`}v{`}`}{`}`}  {`{`}\partial t{`}`} + (\mathbf{`{`}v{`}`} \cdot \nabla) \mathbf{`{`}v{`}`} = -\frac{`{`}\nabla p{`}`}{`{`}\rho{`}`} + \nu \nabla^2 \mathbf{`{`}v{`}`}
+
+
+            $$
 
         <main>
-            <div className="sample">When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are:
-                $$x = -b \pm \sqrt {`{b^2-4ac}`} \over 2a$$
-            </div>
+            
             <div className="sample">
                 <h2>Taylor Series</h2>
                     $$
