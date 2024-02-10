@@ -1,0 +1,21 @@
+body{
+    color:white;
+    background-color: darkgreen;
+}
+
+table{
+
+    border-spacing: .5em;
+    border: 1px solid white
+
+}
+
+td {
+padding:10px;
+}
+
+
+
+.dayRow {
+    /* padding-bottom: 1em; */
+  }

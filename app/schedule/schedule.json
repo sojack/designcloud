@@ -1,0 +1,105 @@
+{
+    "Monday": [
+      {
+        "time": "6:00 am - 8:00 am",
+        "group": "Group A",
+        "location": "Pool 1"
+      },
+      {
+        "time": "9:30 am - 11:00 am",
+        "group": "Group B",
+        "location": "Pool 2"
+      },
+      {
+        "time": "6:00 am - 8:00 am",
+        "group": "Group C",
+        "location": "Pool 3"
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "6:00 am - 8:00 am",
+        "group": "Group A",
+        "location": "Pool 1"
+      },
+      {
+        "time": "9:30 am - 11:00 am",
+        "group": "Group B",
+        "location": "Pool 2"
+      },
+      {
+        "time": "6:00 am - 8:00 am",
+        "group": "Group C",
+        "location": "Pool 3"
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "4:00 pm - 5:00 pm",
+        "group": "Group A",
+        "location": "Pool 1"
+      },
+      {
+        "time": "4:00 pm - 5:00 pm",
+        "group": "Group B",
+        "location": "Pool 2"
+      },
+      {
+        "time": "4:00 pm - 5:00 pm",
+        "group": "Group C",
+        "location": "Pool 3"
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "6:00 am - 8:00 am",
+        "group": "Group A",
+        "location": "Pool 1"
+      },
+      {
+        "time": "9:30 am - 11:00 am",
+        "group": "Group B",
+        "location": "Pool 2"
+      },
+      {
+        "time": "6:00 am - 8:00 am",
+        "group": "Group C",
+        "location": "Pool 3"
+      }
+    ],
+    "Friday": [
+      {
+        "time": "4:00 pm - 5:00 pm",
+        "group": "Group A",
+        "location": "Pool 1"
+      },
+      {
+        "time": "4:00 pm - 5:00 pm",
+        "group": "Group B",
+        "location": "Pool 2"
+      },
+      {
+        "time": "4:00 pm - 5:00 pm",
+        "group": "Group C",
+        "location": "Pool 3"
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "6:00 am - 8:00 am",
+        "group": "Group A",
+        "location": "Pool 1"
+      },
+      {
+        "time": "9:30 am - 11:00 am",
+        "group": "Group B",
+        "location": "Pool 2"
+      },
+      {
+        "time": "6:00 am - 8:00 am",
+        "group": "Group C",
+        "location": "Pool 3"
+      }
+    ]
+  }
+  
