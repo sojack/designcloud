@@ -1,12 +1,12 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import './page.css'
+import styles from './page.module.css'
 import dclogo from "./images/designcloud.svg"
 
 export default function Home() {
   return (
-    <main>
-      <div className="section">
+    <main className={styles.main}>
+      <div className={styles.section}>
         <div>
           <Image src={dclogo} alt="design cloud logo" title="design cloud"/>
         </div>
@@ -20,7 +20,7 @@ export default function Home() {
         <p><a href="https://tomosushi-menu.netlify.app/menu">Restaurant Menu</a> - improve your restaurant experience.</p>
         <p><Link href="math">Math typesetting</Link> on the web</p>
         <h2>Add-ons</h2>
-        <ul>
+        <ul className={styles.ul}>
           <li>Custom domain name</li>
           <li>QR-code</li>
           <li>Logo design</li>

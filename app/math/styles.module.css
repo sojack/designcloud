@@ -1,11 +1,9 @@
-body{
+.mathContainer{
     background-color:white;
     padding:1em;
     color:black;
-}
-
-main{
     max-width: 72ch;
+    margin:auto;
 }
 
 .sample{
