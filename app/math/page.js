@@ -17,9 +17,9 @@ export default function Home() {
         <Script  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"  />
 
 <div className={styles.mathContainer}>
-        <h2>Euler's Identity</h2>
+        <h2>Euler&apos;s Identity</h2>
 
-        <p>Euler's identity is often called the most beautiful equation in mathematics. It relates five fundamental mathematical constants: \(e, \pi, 
+        <p>Euler&apos;s identity is often called the most beautiful equation in mathematics. It relates five fundamental mathematical constants: \(e, \pi, 
 i \) (the imaginary unit), 1, and 0, using addition, multiplication, exponentiation, and equality.</p>
         $$e^{`{`}i\pi{`}`} + 1 = 0$$
         <hr />
@@ -28,7 +28,7 @@ i \) (the imaginary unit), 1, and 0, using addition, multiplication, exponentiat
             $$x = -b \pm \sqrt {`{b^2-4ac}`} \over 2a$$
         <hr />
         <h2>Navier-Stokes Equation</h2>
-        <p>The Navier-Stokes equation is a set of nonlinear partial differential equations that describe the motion of fluid substances. It's used extensively in fluid dynamics to model phenomena such as airflow around an airplane wing or ocean currents.</p>
+        <p>The Navier-Stokes equation is a set of nonlinear partial differential equations that describe the motion of fluid substances. It&apos;s used extensively in fluid dynamics to model phenomena such as airflow around an airplane wing or ocean currents.</p>
             $$
             \frac{`{`}\partial \mathbf{`{`}v{`}`}{`}`}  {`{`}\partial t{`}`} + (\mathbf{`{`}v{`}`} \cdot \nabla) \mathbf{`{`}v{`}`} = -\frac{`{`}\nabla p{`}`}{`{`}\rho{`}`} + \nu \nabla^2 \mathbf{`{`}v{`}`}
             $$
@@ -45,7 +45,7 @@ i \) (the imaginary unit), 1, and 0, using addition, multiplication, exponentiat
         <hr />
 
         <h2>Taylor Series</h2>
-        <p>The Taylor series is a mathematical representation of a function as an infinite sum of terms, each term being a polynomial function evaluated at a particular point. It provides a way to approximate a wide variety of functions using polynomials, enabling the approximation of complex functions by simpler ones. The Taylor series expansion is centered around a specific point and expresses the function as a sum of terms involving the function's derivatives evaluated at that point. It is a fundamental tool in calculus and mathematical analysis, used in fields such as physics, engineering, and computer science for numerical approximation and analysis.</p>
+        <p>The Taylor series is a mathematical representation of a function as an infinite sum of terms, each term being a polynomial function evaluated at a particular point. It provides a way to approximate a wide variety of functions using polynomials, enabling the approximation of complex functions by simpler ones. The Taylor series expansion is centered around a specific point and expresses the function as a sum of terms involving the function&apos;s derivatives evaluated at that point. It is a fundamental tool in calculus and mathematical analysis, used in fields such as physics, engineering, and computer science for numerical approximation and analysis.</p>
             $$
             P(x) = \color{`{teal}`}{`{f(0)}`} + \color{`{blue}`} \frac{`{df}`}{`{dx}`}(0)\frac{`{x^1}`}{`{1!}`}
             + \color{`{green}`} \frac{`{d^2f}`}{`{dx^2}`}(0) \frac{`{x^2}`}{`{2!}`}
