@@ -19,6 +19,7 @@ export default function Home() {
         <p><Link href="/cobra">Article</Link> - clear, easy to read, responsive and easy to share</p>
         <p><a href="https://tomosushi-menu.netlify.app/menu">Restaurant Menu</a> - improve your restaurant experience.</p>
         <p><Link href="math">Math typesetting</Link> on the web</p>
+        <p><Link href="/keeley">3D renderings</Link> photo realistic 3d renderings</p>
         <h2>Add-ons</h2>
         <ul className={styles.ul}>
           <li>Custom domain name</li>
