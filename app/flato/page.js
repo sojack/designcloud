@@ -15,7 +15,7 @@ function page() {
   return (
     <div className={styles.main}>
         <div className={styles.top}> {/* top will hold title and UTC logo */}
-            <Image className={styles.title} src={title} alt="title" priority={true}></Image>
+            <Image className={styles.title} src={title} alt="title" priority="true" placeholder="empty"></Image>
         </div>
         <div className={styles.bottom}>
             <div className={styles.date}>February 22–25, 2024</div>

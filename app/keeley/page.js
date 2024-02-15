@@ -14,7 +14,7 @@ export const metadata = {
 function page() {
   return (
     <div className={styles.container}>
-        <Image src={hydra} alt="Keeley Hydra" title="Keeley Hydra" className={styles.mainPhoto} priority={true}/>
+        <Image src={hydra} alt="Keeley Hydra" title="Keeley Hydra" className={styles.mainPhoto} priority={true} placeholder="blur"/>
         <div  className={styles.main}>
             <Image src={hydraLogo} alt="Keeley Hydra" title="Keeley Hydra" className={styles.logos}/>
             <p>
