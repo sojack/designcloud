@@ -1,0 +1,127 @@
+A swim club has 6 groups: "HP", "National", "Provincial", "Select", "Youth", and "Pre-Comp". 
+An this is their default schedule, showing days of the week, time, and location:
+
+group: HP
+  Monday: 8:00 am - 9:30 am at "MPAC - LC"
+  Thursday: 7:00 am - 8:30 am at "Dryland"
+  Friday: 6:00 am - 8:00 am at "Centennial"
+
+group: National
+  Monday: 4:00 pm - 6:00 pm at "Centennial"
+  Tuesday: 6:00 am - 7:30 am at "Dryland"
+  Tuesday: 4:00 pm - 5:30 pm at "Centennial"
+  Wednesday: 6:00 am - 8:00 am at "Centennial"
+  Wednesday: 4:00 pm - 5:30 pm at "Oak Ridges"
+  Thursday: 4:00 pm - 6:00 pm at "Richvale"
+  Friday: 6:00 am - 8:00 am at "Centennial"
+  Friday: 4:00 pm - 5:30 pm at "Dryland"
+  Saturday: 9:30 am - 11:00 am at "Dryland"
+  Saturday: 3:00 pm - 5:00 pm at "TPASC - LC"
+
+group: Provincial
+  Monday: 4:00 pm - 6:00 pm at "Oak Ridges"
+  Tuesday: 6:30 am - 8:00 am at "Richvale"
+  Tuesday: 4:00 pm - 5:30 pm at "Dryland"
+  Wednesday: 4:00 pm - 6:00 pm at "Centennial"
+  Thursday: 4:00 pm - 6:00 pm at "Centennial"
+  Friday: 4:00 pm - 6:00 pm at "Centennial"
+  Saturday: 11:00 am - 12:30 pm at "Dryland"
+  Saturday: 5:00 pm - 7:00 pm at "TPASC - LC"
+
+group: Select
+  Tuesday: 5:30 pm - 7:00 pm at "Centennial"
+  Wednesday: 6:30 pm - 8:00 pm at "Centennial"
+  Thursday: 4:00 pm - 7:30 pm at "Centennial"
+  Friday: 6:00 pm - 7:30 pm at "Centennial"
+  Saturday: 6:30 am - 8:00 am at "Centennial"
+  Saturday: 8:30 am - 9:30 am at "Dryland"
+
+group: Youth
+  Monday: 6:00 pm - 8:00 pm at "Centennial"
+  Tuesday: 4:00 pm - 6:00 pm at "Richvale"
+  Wednesday: 4:00 pm - 6:00 pm at "Elgin West"
+  Thursday: 6:30 am - 8:00 am at "Richvale"
+  Friday: 5:30 pm - 7:00 pm at "Dryland"
+  Saturday: 6:30 am - 8:00 am at "Richvale"
+
+group: Pre-Comp
+  Monday: 6:00 pm - 8:00 pm at "Centennial"
+  Wednesday: 5:00 pm - 6:00 pm at "Elgin West"
+  Wednesday: 7:15 pm - 8:00 pm at "Centennial"
+  Saturday: 8:00 am - 9:00 am at "Centennial"
+  Saturday: 5:00 pm - 6:30 pm at "Centennial"
+
+Given the schedule above create a json file in the following format:
+
+{"Monday":[
+    {
+    "startTime":"16:00",
+    "endTime":"18:00",
+    "group": "National",
+    "location": "Centennial"
+    },
+    {
+    "time":"16:00 - 18:00",
+    "group": "Provincial",
+    "location": "Oak Ridges"
+    }
+    ]
+    }
+
+Then create another JSON file called "overwrites.json" with the following content
+
+[
+    {
+      "comment": "Friday Feb 23 4-5:30 Dryland Canceled",
+      "date": "2024-02-23",
+      "group": "National",
+      "startTime": "16:00",
+      "endTime": "17:30",
+      "cancellation": true
+    },
+    {
+      "comment": "Monday Feb 20 6-7:30 Change to Playcenter",
+      "date": "2024-02-20",
+      "group": "National",
+      "time": "6:00 - 7:30",
+      "change": {
+        "startTime": "18:15",
+        "endTime": "19:30",
+        "location": "Playcenter"
+      }
+    }
+  ]
+
+and another JSON file called "holiday.json" with the following content:
+
+[
+  {
+    "title": "New Year's Day",
+    "date": "2024-01-01"
+  },
+  {
+    "title": "Family Day",
+    "date": "2024-02-19"
+  }
+]
+
+
+
+Then create a nextJS component called "weeklyPractices" that outputs 7 div elements one for each day of the week, each div will have an h1 element with the day of the week, for example "Monday", an h2 showing the date (in the format dd-MM-YYY), and a table, with no header. If the date fall in a holiday (listed in the holiday.json) and does not match an entry in overwrite.json, no practice is listed only a tr element with the text extracted from the holiday title (assign a className of "holidayTitle"). 
+
+Each row of this table will be a react component called "practice", which outputs a tr element with 3 td elements for time (in the format 6:00 am - 7:30 am (startTime - endTime)), group name, and location.  
+
+If the date is not a holiday check against overwrite.json, if it matches an entry in overwrite check if it has "cancellation":true, if so don't render anything, otherwise render a tr in the following format
+<tr className="change">
+<td>{change.startTime} - {change.endTime}</td>
+<td>{group}</td>
+<td>{change.location}</td>
+
+otherwise render the default entries
+
+</tr>
+<tr className="default">
+<td>{startTime} - {endTime}</td>
+<td>{group}</td>
+<td>{location}</td>
+</tr>

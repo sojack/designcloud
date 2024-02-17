@@ -1,105 +1,40 @@
 {
     "Monday": [
-      {
-        "time": "6:00 am - 8:00 am",
-        "group": "Group A",
-        "location": "Pool 1"
-      },
-      {
-        "time": "9:30 am - 11:00 am",
-        "group": "Group B",
-        "location": "Pool 2"
-      },
-      {
-        "time": "6:00 am - 8:00 am",
-        "group": "Group C",
-        "location": "Pool 3"
-      }
+        {"startTime": "08:00", "endTime": "09:30", "group": "HP", "location": "MPAC - LC"},
+        {"startTime": "16:00", "endTime": "18:00", "group": "National", "location": "Centennial"},
+        {"startTime": "16:00", "endTime": "18:00", "group": "Provincial", "location": "Oak Ridges"},
+        {"startTime": "18:00", "endTime": "20:00", "group": "Youth", "location": "Centennial"},
+        {"startTime": "18:00", "endTime": "20:00", "group": "Pre-Comp", "location": "Centennial"}
     ],
     "Tuesday": [
-      {
-        "time": "6:00 am - 8:00 am",
-        "group": "Group A",
-        "location": "Pool 1"
-      },
-      {
-        "time": "9:30 am - 11:00 am",
-        "group": "Group B",
-        "location": "Pool 2"
-      },
-      {
-        "time": "6:00 am - 8:00 am",
-        "group": "Group C",
-        "location": "Pool 3"
-      }
+        {"startTime": "06:00", "endTime": "07:30", "group": "National", "location": "Dryland"},
+        {"startTime": "16:00", "endTime": "17:30", "group": "National", "location": "Centennial"},
+        {"startTime": "06:30", "endTime": "08:00", "group": "Provincial", "location": "Richvale"},
+        {"startTime": "16:00", "endTime": "17:30", "group": "Provincial", "location": "Dryland"},
+        {"startTime": "17:30", "endTime": "19:00", "group": "Select", "location": "Centennial"},
+        {"startTime": "16:00", "endTime": "18:00", "group": "Youth", "location": "Richvale"}
     ],
     "Wednesday": [
-      {
-        "time": "4:00 pm - 5:00 pm",
-        "group": "Group A",
-        "location": "Pool 1"
-      },
-      {
-        "time": "4:00 pm - 5:00 pm",
-        "group": "Group B",
-        "location": "Pool 2"
-      },
-      {
-        "time": "4:00 pm - 5:00 pm",
-        "group": "Group C",
-        "location": "Pool 3"
-      }
+        {"startTime": "06:00", "endTime": "08:00", "group": "National", "location": "Centennial"},
+        {"startTime": "16:00", "endTime": "17:30", "group": "National", "location": "Oak Ridges"},
+        {"startTime": "16:00", "endTime": "18:00", "group": "Provincial", "location": "Centennial"},
+        {"startTime": "18:30", "endTime": "20:00", "group": "Select", "location": "Centennial"},
+        {"startTime": "16:00", "endTime": "18:00", "group": "Youth", "location": "Elgin West"},
+        {"startTime": "17:00", "endTime": "18:00", "group": "Pre-Comp", "location": "Elgin West"},
+        {"startTime": "19:15", "endTime": "20:00", "group": "Pre-Comp", "location": "Centennial"}
     ],
     "Thursday": [
-      {
-        "time": "6:00 am - 8:00 am",
-        "group": "Group A",
-        "location": "Pool 1"
-      },
-      {
-        "time": "9:30 am - 11:00 am",
-        "group": "Group B",
-        "location": "Pool 2"
-      },
-      {
-        "time": "6:00 am - 8:00 am",
-        "group": "Group C",
-        "location": "Pool 3"
-      }
+        {"startTime": "07:00", "endTime": "08:30", "group": "HP", "location": "Dryland"},
+        {"startTime": "16:00", "endTime": "18:00", "group": "National", "location": "Richvale"},
+        {"startTime": "16:00", "endTime": "18:00", "group": "Provincial", "location": "Centennial"},
+        {"startTime": "16:00", "endTime": "19:30", "group": "Select", "location": "Centennial"},
+        {"startTime": "06:30", "endTime": "08:00", "group": "Youth", "location": "Richvale"}
     ],
     "Friday": [
-      {
-        "time": "4:00 pm - 5:00 pm",
-        "group": "Group A",
-        "location": "Pool 1"
-      },
-      {
-        "time": "4:00 pm - 5:00 pm",
-        "group": "Group B",
-        "location": "Pool 2"
-      },
-      {
-        "time": "4:00 pm - 5:00 pm",
-        "group": "Group C",
-        "location": "Pool 3"
-      }
-    ],
-    "Saturday": [
-      {
-        "time": "6:00 am - 8:00 am",
-        "group": "Group A",
-        "location": "Pool 1"
-      },
-      {
-        "time": "9:30 am - 11:00 am",
-        "group": "Group B",
-        "location": "Pool 2"
-      },
-      {
-        "time": "6:00 am - 8:00 am",
-        "group": "Group C",
-        "location": "Pool 3"
-      }
+        {"startTime": "06:00", "endTime": "08:00", "group": "HP", "location": "Centennial"},
+        {"startTime": "06:00", "endTime": "08:00", "group": "National", "location": "Centennial"},
+        {"startTime": "16:00", "endTime": "18:00", "group": "Provincial", "location": "Centennial"},
+        {"startTime": "17:30", "endTime": "19:00", "group": "Youth", "location": "Dryland"},
+        {"startTime": "16:00", "endTime": "17:30", "group": "National", "location": "Dryland"}
     ]
-  }
-  
+}

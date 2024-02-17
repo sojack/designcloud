@@ -1,0 +1,21 @@
+[
+    {
+      "comment": "Friday Feb 23 4-5:30 Dryland Canceled",
+      "date": "2024-02-23",
+      "group": "National",
+      "startTime": "16:00",
+      "endTime": "17:30",
+      "cancellation": true
+    },
+    {
+      "comment": "Monday Feb 20 6-7:30 Change to Playcenter",
+      "date": "2024-02-20",
+      "group": "National",
+      "time": "6:00 - 7:30",
+      "change": {
+        "startTime": "18:15",
+        "endTime": "19:30",
+        "location": "Playcenter"
+      }
+    }
+  ]
