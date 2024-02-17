@@ -36,5 +36,18 @@
         {"startTime": "16:00", "endTime": "18:00", "group": "Provincial", "location": "Centennial"},
         {"startTime": "17:30", "endTime": "19:00", "group": "Youth", "location": "Dryland"},
         {"startTime": "16:00", "endTime": "17:30", "group": "National", "location": "Dryland"}
-    ]
+    ],
+    "Saturday": [
+        {"startTime": "6:30", "endTime": "8:00", "group": "Select", "location": "Centennial"},
+        {"startTime": "6:30", "endTime": "8:00", "group": "Youth", "location": "Richvale"},
+        {"startTime": "8:00", "endTime": "9:00", "group": "Pre-Comp", "location": "Centennial"},
+        {"startTime": "8:30", "endTime": "9:30", "group": "Select", "location": "Dryland"},
+        {"startTime": "9:30", "endTime": "11:00", "group": "National", "location": "Dryland"},
+        {"startTime": "11:00", "endTime": "12:30", "group": "Provincial", "location": "Dryland"},
+        {"startTime": "3:00", "endTime": "5:00", "group": "National", "location": "TPASC - LC"},
+        {"startTime": "5:00", "endTime": "6:30", "group": "Pre-Comp", "location": "Centennial"},
+        {"startTime": "5:00", "endTime": "7:00", "group": "Provincial", "location": "TPASC - LC"}
+      ],
+      "Sunday": [
+      ]
 }
