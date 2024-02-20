@@ -1,53 +1,39 @@
-{
-    "Monday": [
-        {"startTime": "08:00", "endTime": "09:30", "group": "HP", "location": "MPAC - LC"},
-        {"startTime": "16:00", "endTime": "18:00", "group": "National", "location": "Centennial"},
-        {"startTime": "16:00", "endTime": "18:00", "group": "Provincial", "location": "Oak Ridges"},
-        {"startTime": "18:00", "endTime": "20:00", "group": "Youth", "location": "Centennial"},
-        {"startTime": "18:00", "endTime": "20:00", "group": "Pre-Comp", "location": "Centennial"}
-    ],
-    "Tuesday": [
-        {"startTime": "06:00", "endTime": "07:30", "group": "National", "location": "Dryland"},
-        {"startTime": "16:00", "endTime": "17:30", "group": "National", "location": "Centennial"},
-        {"startTime": "06:30", "endTime": "08:00", "group": "Provincial", "location": "Richvale"},
-        {"startTime": "16:00", "endTime": "17:30", "group": "Provincial", "location": "Dryland"},
-        {"startTime": "17:30", "endTime": "19:00", "group": "Select", "location": "Centennial"},
-        {"startTime": "16:00", "endTime": "18:00", "group": "Youth", "location": "Richvale"}
-    ],
-    "Wednesday": [
-        {"startTime": "06:00", "endTime": "08:00", "group": "National", "location": "Centennial"},
-        {"startTime": "16:00", "endTime": "17:30", "group": "National", "location": "Oak Ridges"},
-        {"startTime": "16:00", "endTime": "18:00", "group": "Provincial", "location": "Centennial"},
-        {"startTime": "18:30", "endTime": "20:00", "group": "Select", "location": "Centennial"},
-        {"startTime": "16:00", "endTime": "18:00", "group": "Youth", "location": "Elgin West"},
-        {"startTime": "17:00", "endTime": "18:00", "group": "Pre-Comp", "location": "Elgin West"},
-        {"startTime": "19:15", "endTime": "20:00", "group": "Pre-Comp", "location": "Centennial"}
-    ],
-    "Thursday": [
-        {"startTime": "07:00", "endTime": "08:30", "group": "HP", "location": "Dryland"},
-        {"startTime": "16:00", "endTime": "18:00", "group": "National", "location": "Richvale"},
-        {"startTime": "16:00", "endTime": "18:00", "group": "Provincial", "location": "Centennial"},
-        {"startTime": "16:00", "endTime": "19:30", "group": "Select", "location": "Centennial"},
-        {"startTime": "06:30", "endTime": "08:00", "group": "Youth", "location": "Richvale"}
-    ],
-    "Friday": [
-        {"startTime": "06:00", "endTime": "08:00", "group": "HP", "location": "Centennial"},
-        {"startTime": "06:00", "endTime": "08:00", "group": "National", "location": "Centennial"},
-        {"startTime": "16:00", "endTime": "18:00", "group": "Provincial", "location": "Centennial"},
-        {"startTime": "17:30", "endTime": "19:00", "group": "Youth", "location": "Dryland"},
-        {"startTime": "16:00", "endTime": "17:30", "group": "National", "location": "Dryland"}
-    ],
-    "Saturday": [
-        {"startTime": "6:30", "endTime": "8:00", "group": "Select", "location": "Centennial"},
-        {"startTime": "6:30", "endTime": "8:00", "group": "Youth", "location": "Richvale"},
-        {"startTime": "8:00", "endTime": "9:00", "group": "Pre-Comp", "location": "Centennial"},
-        {"startTime": "8:30", "endTime": "9:30", "group": "Select", "location": "Dryland"},
-        {"startTime": "9:30", "endTime": "11:00", "group": "National", "location": "Dryland"},
-        {"startTime": "11:00", "endTime": "12:30", "group": "Provincial", "location": "Dryland"},
-        {"startTime": "3:00", "endTime": "5:00", "group": "National", "location": "TPASC - LC"},
-        {"startTime": "5:00", "endTime": "6:30", "group": "Pre-Comp", "location": "Centennial"},
-        {"startTime": "5:00", "endTime": "7:00", "group": "Provincial", "location": "TPASC - LC"}
-      ],
-      "Sunday": [
-      ]
-}
+[
+    {"day":"Monday" ,"startTime": "16:00", "endTime": "18:00", "group": "National", "location": "Centennial"},
+    {"day":"Monday" ,"startTime": "08:00", "endTime": "09:30", "group": "HP", "location": "MPAC - LC"},
+    {"day":"Monday" ,"startTime": "16:00", "endTime": "18:00", "group": "Provincial", "location": "Oak Ridges"},
+    {"day":"Monday" ,"startTime": "18:00", "endTime": "20:00", "group": "Youth", "location": "Centennial"},
+    {"day":"Monday" ,"startTime": "18:00", "endTime": "20:00", "group": "Pre-Comp", "location": "Centennial"},
+    {"day":"Tuesday" ,"startTime": "06:00", "endTime": "07:30", "group": "National", "location": "Dryland"},
+    {"day":"Tuesday" ,"startTime": "16:00", "endTime": "17:30", "group": "National", "location": "Centennial"},
+    {"day":"Tuesday" ,"startTime": "06:30", "endTime": "08:00", "group": "Provincial", "location": "Richvale"},
+    {"day":"Tuesday" ,"startTime": "16:00", "endTime": "17:30", "group": "Provincial", "location": "Dryland"},
+    {"day":"Tuesday" ,"startTime": "17:30", "endTime": "19:00", "group": "Select", "location": "Centennial"},
+    {"day":"Tuesday" ,"startTime": "16:00", "endTime": "18:00", "group": "Youth", "location": "Richvale"},
+    {"day":"Wednesday" ,"startTime": "06:00", "endTime": "08:00", "group": "National", "location": "Centennial"},
+    {"day":"Wednesday" ,"startTime": "16:00", "endTime": "17:30", "group": "National", "location": "Oak Ridges"},
+    {"day":"Wednesday" ,"startTime": "16:00", "endTime": "18:00", "group": "Provincial", "location": "Centennial"},
+    {"day":"Wednesday" ,"startTime": "18:30", "endTime": "20:00", "group": "Select", "location": "Centennial"},
+    {"day":"Wednesday" ,"startTime": "16:00", "endTime": "18:00", "group": "Youth", "location": "Elgin West"},
+    {"day":"Wednesday" ,"startTime": "17:00", "endTime": "18:00", "group": "Pre-Comp", "location": "Elgin West"},
+    {"day":"Wednesday" ,"startTime": "19:15", "endTime": "20:00", "group": "Pre-Comp", "location": "Centennial"},
+    {"day":"Thursday" ,"startTime": "07:00", "endTime": "08:30", "group": "HP", "location": "Dryland"},
+    {"day":"Thursday" ,"startTime": "16:00", "endTime": "18:00", "group": "National", "location": "Richvale"},
+    {"day":"Thursday" ,"startTime": "16:00", "endTime": "18:00", "group": "Provincial", "location": "Centennial"},
+    {"day":"Thursday" ,"startTime": "16:00", "endTime": "19:30", "group": "Select", "location": "Centennial"},
+    {"day":"Thursday" ,"startTime": "06:30", "endTime": "08:00", "group": "Youth", "location": "Richvale"},
+    {"day":"Friday" ,"startTime": "06:00", "endTime": "08:00", "group": "HP", "location": "Centennial"},
+    {"day":"Friday" ,"startTime": "06:00", "endTime": "08:00", "group": "National", "location": "Centennial"},
+    {"day":"Friday" ,"startTime": "16:00", "endTime": "18:00", "group": "Provincial", "location": "Centennial"},
+    {"day":"Friday" ,"startTime": "17:30", "endTime": "19:00", "group": "Youth", "location": "Dryland"},
+    {"day":"Friday" ,"startTime": "16:00", "endTime": "17:30", "group": "National", "location": "Dryland"},
+    {"day":"Saturday" ,"startTime": "6:30", "endTime": "8:00", "group": "Select", "location": "Centennial"},
+    {"day":"Saturday" ,"startTime": "6:30", "endTime": "8:00", "group": "Youth", "location": "Richvale"},
+    {"day":"Saturday" ,"startTime": "8:00", "endTime": "9:00", "group": "Pre-Comp", "location": "Centennial"},
+    {"day":"Saturday" ,"startTime": "8:30", "endTime": "9:30", "group": "Select", "location": "Dryland"},
+    {"day":"Saturday" ,"startTime": "9:30", "endTime": "11:00", "group": "National", "location": "Dryland"},
+    {"day":"Saturday" ,"startTime": "11:00", "endTime": "12:30", "group": "Provincial", "location": "Dryland"},
+    {"day":"Saturday" ,"startTime": "3:00", "endTime": "5:00", "group": "National", "location": "TPASC - LC"},
+    {"day":"Saturday" ,"startTime": "5:00", "endTime": "6:30", "group": "Pre-Comp", "location": "Centennial"},
+    {"day":"Saturday" ,"startTime": "5:00", "endTime": "7:00", "group": "Provincial", "location": "TPASC - LC"}
+]

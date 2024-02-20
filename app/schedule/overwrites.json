@@ -17,5 +17,16 @@
         "endTime": "19:30",
         "location": "Playcenter"
       }
+    },
+    {
+      "comment": "Monday Feb 20 6-7:30 Change to Playcenter",
+      "date": "2024-02-25",
+      "group": "National",
+      "time": "6:00 - 7:30",
+      "change": {
+        "startTime": "18:15",
+        "endTime": "19:30",
+        "location": "Playcenter"
+      }
     }
   ]
