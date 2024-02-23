@@ -50,7 +50,7 @@ i \) (the imaginary unit), 1, and 0, using addition, multiplication, exponentiat
             P(x) = \color{`{teal}`}{`{f(0)}`} + \color{`{blue}`} \frac{`{df}`}{`{dx}`}(0)\frac{`{x^1}`}{`{1!}`}
             + \color{`{green}`} \frac{`{d^2f}`}{`{dx^2}`}(0) \frac{`{x^2}`}{`{2!}`}
             + \color{`{red}`} \frac{`{d^3f}`}{`{dx^3}`}(0)\frac{`{x^3}`}{`{3!}`}
-            +…
+            + \color{`{black}`}…
             $$
         <hr />
 
