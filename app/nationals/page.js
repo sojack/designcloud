@@ -26,7 +26,7 @@ function page() {
                         className={x.on==0?'canceled':''}
                     >
                         <td
-                        className={x.creator=='Betty'?'betty':'brigitte'}
+                        className={'Betty'}
                         
                         >•</td>
                         <td>{x.year}</td>
@@ -40,8 +40,6 @@ function page() {
             </tbody>
         </table>
         <p>Record keepers:</p>
-        <p className='betty'><a href="https://olympic.ca/team-canada/elizabeth-whittall/">Beth Whitall</a></p>
-        <p className='brigitte'>Brigitte Zirger</p>
     </div>
   )
 }
