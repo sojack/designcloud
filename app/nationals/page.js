@@ -39,7 +39,7 @@ function page() {
 
             </tbody>
         </table>
-        <p>Record keepers:</p>
+        // <p>Record keepers:</p>
     </div>
   )
 }
